@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: "Raleway", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #000000;
+    margin: auto;
+    object-fit: cover;
+}
+
+h2 {
+    color: #33A8DB;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+p {
+    color: #FFFFFF;
+    text-align: center;
+}
+/*Header*/
+.banner {
+    height: 595px;
+    background: url("../images/banner.png"), linear-gradient(#000000, #31A8DD30,#000000);
+    background-size: cover;
+    border-bottom: 1px solid #33A8DB;
+}
+
+.banner-content {
+    width: 530px;
+    height: 393px;
+    text-align: center;
+    padding: 45px 0 0 0;
+    margin: auto;
+}
+
+.banner-content .logo {
+    width: 268px;
+    height: 268px;
+    background-color: #00000033;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.banner-content .logo img {
+    margin: 27px 0 0 0;
+
+}
+
+.banner-content h1 {
+    font-size: 40px;
+    font-weight: 900;
+    margin: 15px 15px;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.banner-content p {
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0;
+    word-spacing: 2px;
+    margin: 20px 0 20px 0;
+}
+
+.banner-content button {
+    width: 326px;
+    height: 57px;
+    font-size: 16px;
+    font-weight: 900;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-image-source: linear-gradient(180deg, #3BA1CD 0%, #1572B7 100%);
+    border-image-repeat: repeat;
+    border-image-slice: 2;
+    letter-spacing: 4px;
+    
+}
+/*Header*/
+
+/*Main*/
+main {
+    padding: 50px auto 50px auto;
+
+}
+
+#course-content {
+    width: 792px;
+    height: 325px;
+    margin: 82px auto;
+}
+
+#course-content h2 {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 100%;
+    text-align: center;
+    word-spacing: 4px;
+    letter-spacing: 4px;
+    margin: 0 0 20px 0;
+}
+
+#course-content p {
+    text-align: center;
+}
+
+.modules-list {
+    width: 792px;
+    height: 297px;
+    margin: auto;
+}
+
+.module {
+    width: 535px;
+    height: 51px;
+    border: 1px solid #33A8DB;
+    border-radius: 50px;
+    margin: auto;
+    font-size: 14px;
+    background: #252525;
+    color: #FFFFFF;
+    text-align: center;
+    box-shadow: -2px 6px 4px 0px #00000066 inset;
+    padding: 16px;
+    margin: 20px auto;
+}
+
+span {
+    color: #33A8DB;
+}
+
+#transform-world {
+    height: 560px;
+    background: url("../images/woman-code.png");
+    background-size: cover;
+    background-attachment: fixed;
+    border-top: 1px solid #33A8DB;
+    border-bottom: 1px solid #33A8DB;
+    padding: 200px;
+}
+
+#transform-world p {
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 47px;
+    text-shadow: 3px 2px 0px #33A8DB;
+    text-transform: lowercase;
+    max-width: 250px;
+    text-align: left;
+}
+
+#professional-challenges {
+    width: 792px;
+    margin:100px auto;
+    text-align: center;
+}
+
+#professional-challenges h2 {
+    font-size: 32px;
+    margin: 100px 0 0 0;
+}
+
+#professional-challenges img {
+    margin: 56px 0 33px 0;
+}
+
+#professional-challenges p {
+    font-size: 16px;
+    text-align: center;
+}
+/*Main*/
+
+/*Footer*/
+footer {
+    height: 180px;
+    text-align: center;
+    margin: auto;
+    background: linear-gradient(180deg, rgba(51, 168, 219, 0) 0%, rgba(51, 168, 219, 0.2) 99.99%, rgba(51, 168, 219, 0.2) 100%);
+    border-top: 1px solid #33A8DB;
+}
+
+footer img {
+    margin: 50px auto 0px auto;
+}
+
+footer p {
+    font-size: 16px;
+}
+
+footer a {
+    color: #33A8DB;
+    text-decoration: none;
+    font-weight: bold;
+}
+/*Footer*/
