@@ -26,13 +26,12 @@ p {
 }
 /*Header*/
 .banner {
+    margin: auto;
     height: 595px;
     background: url("../images/banner.png"), linear-gradient(#000000, #31A8DD30,#000000);
     background-size: cover;
     border-bottom: 1px solid #33A8DB;
-    width: 100%;
 }
-
 
 .banner-content {
     width: 530px;
@@ -145,7 +144,6 @@ span {
 }
 
 #transform-world {
-    width: 100%;    
     height: 560px;
     background: url("../images/woman-code.png");
     background-size: cover;
@@ -188,7 +186,6 @@ span {
 
 /*Footer*/
 footer {
-    width: 100%;
     height: 180px;
     text-align: center;
     margin: auto;
