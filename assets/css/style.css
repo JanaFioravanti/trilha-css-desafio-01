@@ -11,6 +11,7 @@ body {
     background: #000000;
     margin: auto;
     object-fit: cover;
+    width: 100%;
 }
 
 h2 {
