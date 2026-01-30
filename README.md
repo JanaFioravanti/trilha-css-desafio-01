@@ -2,4 +2,4 @@
 
 Bem vindo(a) ao primeiro desafio da Trilha de CSS da DIO! 
 
-### Acesse o resultado do meu trabalho neste desafio [aqui!](https://janafioravanti.github.io/trilha-css-desafio-01/) 
+### Acesse o resultado do meu trabalho neste desafio <a href="https://janafioravanti.github.io/trilha-css-desafio-01url" target="_blank">aqui!</a>
